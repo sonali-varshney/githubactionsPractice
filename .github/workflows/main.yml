@@ -1,12 +1,13 @@
-name:"first workflow"
-on:['push']
+name: Auto.Tag
+on: 
+- push
 jobs:
   run shell commands:
     runs on: ubuntu:latest
     steps:
-      -name: echao a string
-       run: echo "Hi from 1st step"
-      -name: multiline
-       run: |
+      - name: echao a string
+        run: echo "Hi from 1st step"
+      - name: multiline
+        run: |
          node-v
          npm -v
