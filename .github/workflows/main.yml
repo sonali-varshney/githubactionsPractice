@@ -2,7 +2,7 @@ name: Auto.Tag
 on: 
 - push
 jobs:
-  run shell commands:
+  runshellcommands:
     runs on: ubuntu:latest
     steps:
       - name: echao a string
