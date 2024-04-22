@@ -7,7 +7,4 @@ jobs:
     steps:
       - name: echao a string
         run: echo "Hi from 1st step"
-      - name: multiline
-        run: |
-         node-v
-         npm -v
+
